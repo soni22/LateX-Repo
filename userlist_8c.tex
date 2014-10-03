@@ -1,0 +1,104 @@
+\hypertarget{userlist_8c}{\section{userlist.\-c \-File \-Reference}
+\label{userlist_8c}\index{userlist.\-c@{userlist.\-c}}
+}
+
+
+\-The utility file.  
+
+
+{\ttfamily \#include $<$malloc.\-h$>$}\*
+{\ttfamily \#include $<$string.\-h$>$}\*
+\subsection*{\-Data \-Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structnode__type}{node\-\_\-type}
+\end{DoxyCompactItemize}
+\subsection*{\-Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \hyperlink{structnode__type}{node\-\_\-type} \hyperlink{userlist_8c_a408f4afe642c45b35f17f509f52e8da6}{s}
+\begin{DoxyCompactList}\small\item\em \-A type definition for structure \hyperlink{structnode__type}{node\-\_\-type}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Functions}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structnode__type}{node\-\_\-type} $\ast$ \hyperlink{userlist_8c_acd3a1f7da41d02e3ab668b47840a407f}{ord\-\_\-ins} (char string\mbox{[}10\mbox{]}, struct \hyperlink{structnode__type}{node\-\_\-type} $\ast$f)
+\begin{DoxyCompactList}\small\item\em \-Insert the username at correct place in \-Linked \-List. \end{DoxyCompactList}\item 
+struct \hyperlink{structnode__type}{node\-\_\-type} $\ast$ \hyperlink{userlist_8c_a7aed4632dfc30556646c1db053c4dcda}{del} (char str\mbox{[}10\mbox{]}, struct \hyperlink{structnode__type}{node\-\_\-type} $\ast$f)
+\item 
+void \hyperlink{userlist_8c_a9ca26b499644bc5985bb14d7007128c8}{display} (struct \hyperlink{structnode__type}{node\-\_\-type} $\ast$f)
+\begin{DoxyCompactList}\small\item\em \-Display the usernames in correct order. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-The utility file. 
+
+\-Definition in file \hyperlink{userlist_8c_source}{userlist.\-c}.
+
+
+
+\subsection{\-Typedef \-Documentation}
+\hypertarget{userlist_8c_a408f4afe642c45b35f17f509f52e8da6}{\index{userlist.\-c@{userlist.\-c}!s@{s}}
+\index{s@{s}!userlist.c@{userlist.\-c}}
+\subsubsection[{s}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf node\-\_\-type} {\bf s}}}\label{userlist_8c_a408f4afe642c45b35f17f509f52e8da6}
+
+
+\-A type definition for structure \hyperlink{structnode__type}{node\-\_\-type}. 
+
+
+
+\subsection{\-Function \-Documentation}
+\hypertarget{userlist_8c_a7aed4632dfc30556646c1db053c4dcda}{\index{userlist.\-c@{userlist.\-c}!del@{del}}
+\index{del@{del}!userlist.c@{userlist.\-c}}
+\subsubsection[{del}]{\setlength{\rightskip}{0pt plus 5cm}struct {\bf node\-\_\-type}$\ast$ {\bf del} (
+\begin{DoxyParamCaption}
+\item[{char}]{str\mbox{[}10\mbox{]}, }
+\item[{struct {\bf node\-\_\-type} $\ast$}]{f}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}read\mbox{]}}}}\label{userlist_8c_a7aed4632dfc30556646c1db053c4dcda}
+
+
+\-Definition at line 88 of file userlist.\-c.
+
+\hypertarget{userlist_8c_a9ca26b499644bc5985bb14d7007128c8}{\index{userlist.\-c@{userlist.\-c}!display@{display}}
+\index{display@{display}!userlist.c@{userlist.\-c}}
+\subsubsection[{display}]{\setlength{\rightskip}{0pt plus 5cm}{\bf display} (
+\begin{DoxyParamCaption}
+\item[{struct {\bf node\-\_\-type} $\ast$}]{f}
+\end{DoxyParamCaption}
+)}}\label{userlist_8c_a9ca26b499644bc5985bb14d7007128c8}
+
+
+\-Display the usernames in correct order. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em f} & \-The pointer to the first node of \-Linked \-List. \\
+\hline
+\end{DoxyParams}
+
+
+\-Definition at line 112 of file userlist.\-c.
+
+\hypertarget{userlist_8c_acd3a1f7da41d02e3ab668b47840a407f}{\index{userlist.\-c@{userlist.\-c}!ord\-\_\-ins@{ord\-\_\-ins}}
+\index{ord\-\_\-ins@{ord\-\_\-ins}!userlist.c@{userlist.\-c}}
+\subsubsection[{ord\-\_\-ins}]{\setlength{\rightskip}{0pt plus 5cm}struct {\bf node\-\_\-type} $\ast$ {\bf ord\-\_\-ins} (
+\begin{DoxyParamCaption}
+\item[{char}]{string\mbox{[}10\mbox{]}, }
+\item[{struct {\bf node\-\_\-type} $\ast$}]{f}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}read\mbox{]}}}}\label{userlist_8c_acd3a1f7da41d02e3ab668b47840a407f}
+
+
+\-Insert the username at correct place in \-Linked \-List. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em string\mbox{[}10\mbox{]}} & \-Username to be inserted in the list \\
+\hline
+{\em f} & \-The pointer to the first node of \-Linked \-List. \\
+\hline
+\end{DoxyParams}
+
+
+\-Definition at line 34 of file userlist.\-c.
+

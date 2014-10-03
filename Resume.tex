@@ -1,0 +1,209 @@
+% resume.tex
+%
+% (c) 2002 Matthew Boedicker <mboedick@mboedick.org> (original author) http://mboedick.org
+% (c) 2003-2007 David J. Grant <davidgrant-at-gmail.com> http://www.davidgrant.ca
+% (c) 2007-2010 Todd C. Miller <Todd.Miller@courtesan.com> http://www.courtesan.com/todd
+%
+% This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
+% Edited it, according to my needs.
+\documentclass[letterpaper,10pt]{article}
+
+%-----------------------------------------------------------
+
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.80}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Adjust margins to 0.5in on all sides
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.0in}
+\addtolength{\topmargin}{-0.5in}
+%\addtolength{\textheight}{1.0in}
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\large \colorbox{mygrey}{\begin{minipage}{\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{7.0in}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & \textit{#4} \\
+\end{tabular*}\vspace{-6pt}}
+
+\newcommand{\ressubheadinged}[4]{
+\begin{tabular*}{7.0in}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4}\\
+\end{tabular*}\vspace{-6pt}}
+
+%-----------------------------------------------------------
+
+
+\begin{document}
+
+\begin{tabular*}{7.5in}{l@{\extracolsep{\fill}}r}
+\textbf{\large Sonika Yadav}\\
+sonikayadav822@gmail.com\\
+about.me/yadavsonika
+\end{tabular*}
+\\
+
+\vspace{0.1in}
+
+\resheading{Education}
+\begin{itemize}
+\item
+	\ressubheadinged{Kendriya Vidyalaya Vigyan Vihar}{Delhi}{CBSE, AISSE (88\%)}{2008}
+
+\item
+	\ressubheadinged{Kendriya Vidyalaya Vigyan Vihar}{Delhi}{CBSE, AISSCE (83\%)}{2010}
+
+\item
+	\ressubheadinged{Indira Gandhi Institute of Technology}{Delhi}{B.Tech student, Information Technology (80\%)}{August 2010 - 2014}
+	
+
+\end{itemize}
+
+
+\resheading{Work Experience}
+\begin{itemize}
+
+\item
+	\ressubheading{Tremors 11.0, CSI IGIT Tech. Festival}{Delhi}{Joint Publicity Head}{Joint Publicity Head, 2011}
+	\begin{itemize}
+		\resitem{Resposible for publicising the events in around 200 colleges in India.  (Adobe Photoshop, Adobe After Effects)}
+	\end{itemize}
+
+\item
+	\ressubheading{Tremors 12.0, CSI IGIT Tech. Festival}{Delhi}{Strategy Head}{Strategy Head, 2012}
+	\begin{itemize}
+		\resitem{Coded, conceptualized, strategised ten most succesful technical events.}
+	\end{itemize}
+\item
+	\ressubheading{Indian Institute of Technology, Delhi}{Delhi, India}{Intern}{Intern, Summer 2012}
+	\begin{itemize}
+		\resitem{Developed a Java Swing application for computing Optimal Travel Route between node locations in WISEKAR
+.  (Java, REST calls, JSON)}
+	\end{itemize}
+
+\item
+	\ressubheading{Qualcomm Inc.}{Hyderabad, India}{Interim Engineering Intern}{Interim Engineering Intern, Summer 2013}
+	\begin{itemize}
+		\resitem{Develop a log-packet which logs the timing of Enhanced Up link profiled data path handlers.  (C, Perl)}
+	\end{itemize}
+
+\item
+	\ressubheading{Findable.in}{Delhi}{Software Engineer (Python Developer)}{Software Engineer (Python Developer), June 2014 to present}
+	\begin{itemize}
+		\resitem{Currently working with Scrapy to Parse websites.  (Python, Scrapy)}
+	\end{itemize}
+
+\end{itemize}
+
+\resheading{Workshops}
+\begin{itemize}
+	\item {Two week workshop on \textbf{Project Development using Advanced C Programming.}, Summer 2011, IGIT, Delhi }
+	\item {Two days workshop on \textbf{ANDROID Application Development}, 2012, IGIT, Delhi.}
+
+\end{itemize}
+
+\resheading{Skills}
+\begin{itemize}
+\item \textbf{Computer skills:} C, C++, Linux, Java, Python, MySQL, Perl, HTML, CSS, PHP, Octave, Latex, Doxygen. 
+\item \textbf{Classes:} Data Structures, Algorithm Analysis \& Design, Operating System, Database, Data Warehousing \& Mining, Compiler Construction, Software Engineering, Artificial Intelligence.
+\item \textbf{Independent Coursework:} Intro to Computer Science (Udacity CS 101), Intro to Theoretical Computer Science (Udacity), Algorithms Part I \& Part II (Coursera), Machine Learning (Coursera), An Introduction to Interactive Programming in Python (Coursera), Software Testing (Udacity), Artificial Intelligence (edx CS188.1x).
+\end{itemize}
+
+\resheading{Academic Achievements \& Awards}
+\begin{itemize}
+	\item Among Top 5 students from Class 1(1998) to Class 12(2010).
+	\item Student Talent Award, Hindi Academy, 2008.
+	\item Top quizzer on Algorithm Guru, 2012.
+	\item Ranked 114 Codechef, short contest, July 2012.
+	\item Won prizes in coding competetions named Smash The Bug, Adavya Programming Competition, Cryptography Contest, Code Wars, Obfuscation e.t.c.
+	\item Ranked 1 or 2  in quizes named Internet quiz and general programming concepts, Operating System quiz e.t.c.
+
+\end{itemize}
+
+\pagebreak
+\resheading{Projects}
+\begin{itemize}
+\item
+	\ressubheading{Base Number Convertor System}{Self}{Self}{Self, Summer 2011}
+	\begin{itemize}
+		\resitem{This converter convert's information given in source base to target base (ranges from 2 to 20). The user is prompted if entered information does not confine under the source base.  (C)}
+	\end{itemize}
+
+
+\item
+	\ressubheading{Visualizations in CPU Scheduling}{Self}{Self}{Summer 2011}
+	\begin{itemize}
+		\resitem{Visualizations of CPU Scheduling Algorithms like FCFS, SJF, RR, Multilevel Queue Scheduling, Priority Based Scheduling was done. The user enters the No of processes and other parameters are generated randomly. (C, GTK+)}
+	\end{itemize}
+
+
+\item
+	\ressubheading{Techase, Online Treasure Hunt System}{Self}{Self}{Tremors 12.0, 2012}
+	\begin{itemize}
+		\resitem Techase is an online treasure hunt system. This allows the user to register, who after login plays the on-line treasure hunt game. Various facilities for user were given such changing password, etc. (HTML, CSS, PHP, MySql)
+	\end{itemize}
+
+\item
+	\ressubheading{WISEKAR Optimal Travel Route}{Self}{Self}{IIT Delhi, Summer 2012}
+	\begin{itemize}
+		\resitem{Developed a Java Swing application for computing Optimal Travel Route between node locations in WISEKAR. Start and end time stamps on the app are used to retrieve location information about nodes from Wisekar. Brute Force and Simulated Annealing (with a lower time complexity) are used to compute solution to the NP-Hard Travelling Salesman Problem in order to find optimal and near Optimal Travel Route respectively. (Java, JSON, REST calls)}
+	\end{itemize}
+
+
+\item
+	\ressubheading{WCDMA Enhanced UPlink Timing Log Packet}{Self}{Self}{Qualcomm Inc., Summer 2013}
+	\begin{itemize}
+		\resitem{The objective of the project is to develop a packet which logs the timing of Enhanced Up link profiled data path handlers. The packet is submitted to DIAG when the EUL data path handler end time is reached. Each log packet will have a fixed number of samples specified in the log packet header. This packet is delivered every 200 ms or upon reconfiguration or active set update. We will have a sample for this packet every TTI. (C, Perl)}
+	\end{itemize}
+
+
+\item
+	\ressubheading{Web Crawler}{Self}{Self}{Self, 2013}
+	\begin{itemize}
+		\resitem{A simple web-crawler script built in the cs101 class at Udacity. Current version ignore robot.txt files, so should be used cautiously, if at all, to search the open web.  (Python)}
+	\end{itemize}
+
+
+\item
+	\ressubheading{M.Tech Counselling System}{Self}{Self}{IGIT Delhi, January 2014 to present}
+	\begin{itemize}
+		\resitem{The objective of developing this system is to automate the M.Tech Counselling in IGIT, Delhi. (HTML, CSS, PHP, MySql)}
+	\end{itemize}
+
+
+\item
+	\ressubheading{Bloom Filter Visualization}{Self}{Self}{Self, February 2014 to present}
+	\begin{itemize}
+		\resitem{The objective is to develop a simple visualization to understand the Bloom Filter working, interactively. (HTML, CSS, JavaScript, jQuery)}
+	\end{itemize}
+
+
+\item
+	\ressubheading{Distributed Build System Using MapReduce Framework}{Self}{Self}{Final Year Project, October 2013 to present}
+	\begin{itemize}
+		\resitem{Objective of this is to create a distributed build system using MapReduce framework. Systems like mrcc(open source),distcc(Google's) has been developed for distributed building. But if the former uses Makefiles as the base, the latter one does not use MapReduce at all. The aim is to avoid makefiles completely and use MapReduce instead, in finding the dependencies of the files as well as in making the rebuilding process efficient. (C++, Hadoop, MapReduce)}
+	\end{itemize}
+
+\end{itemize}
+
+\resheading{Extra Curricular Activities \& Achievements}
+\begin{itemize}
+	\item Won various prizes in Debates, Sports(Badminton, Chess), Group Singing \& Dacing at \textbf{Cluster Level, Kendriya Vidyalaya Sanghthan}, 2004 to 2008. 
+	\item Cleared Level 1 and Level 2 of \textbf{The Bharat Scouts and Guides}, 2008.
+	\item \textbf{Best House Captain}, 2009 \& 2010.
+	\item \textbf{Gold Medal Winner}, Badminton, \textbf{GGSIPU Sports Meet}, 2010.
+	\item Worked for \textbf{Aam Aadmi Party}, Delhi Unit, 2013.
+	\item Worked for NGO \textbf{Samarpan}, 2013.
+	
+
+\end{itemize}
+
+\end{document}
+
